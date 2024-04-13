@@ -1,0 +1,1259 @@
+[0/1] Re-running CMake...
+-- Component directory C:/esp32_exercise/components/led does not contain a CMakeLists.txt file. No component will be added
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/esp32_exercise/sdkconfig
+-- App "1_first_code" version: 370fcb4-dirty
+-- Adding linker script C:/esp32_exercise/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/app_trace C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/app_update C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/bootloader C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/bootloader_support C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/bt C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/cmock C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/console C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/cxx C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/driver C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/efuse C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp-tls C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_adc C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_app_format C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_common C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_eth C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_event C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_gdbstub C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hid C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_http_client C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_http_server C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_https_ota C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_https_server C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_lcd C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_local_ctrl C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_netif C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_partition C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_phy C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_pm C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_psram C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_ringbuf C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_timer C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/espcoredump C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esptool_py C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/fatfs C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/hal C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/heap C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/http_parser C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/idf_test C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/ieee802154 C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/json C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip C:/esp32_exercise/main C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/mbedtls C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/mqtt C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/newlib C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/nvs_flash C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/openthread C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/partition_table C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/perfmon C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/protobuf-c C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/protocomm C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/pthread C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/sdmmc C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/spi_flash C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/spiffs C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/tcp_transport C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/ulp C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/unity C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/usb C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/vfs C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/wear_levelling C:/esp32_exercise/components/wifi C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/wifi_provisioning C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/wpa_supplicant C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/esp32_exercise/build
+[1/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+In file included from C:/esp32_exercise/main/app_main.c:14:
+C:/esp32_exercise/components/wifi/wifi.h:12:18: warning: '_wifi_init_softap' used but never defined
+   12 | static esp_err_t _wifi_init_softap(void);
+      |                  ^~~~~~~~~~~~~~~~~
+C:/esp32_exercise/main/app_main.c:16:13: warning: '_event_handler' declared 'static' but never defined [-Wunused-function]
+   16 | static void _event_handler(void *p_arg, esp_event_base_t event_base, int32_t event_id, void *p_event_data);
+      |             ^~~~~~~~~~~~~~
+[2/12] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\esp32_exercise\build\bootloader\esp-idf\esptool_py && C:\EspressifnotVSC\python_env\idf5.0_py3.11_env\Scripts\python.exe C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/esp32_exercise/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6760 bytes. 0x8a0 bytes (8%) free.
+[3/10] Building C object esp-idf/wifi/CMakeFiles/__idf_wifi.dir/wifi.c.obj
+FAILED: esp-idf/wifi/CMakeFiles/__idf_wifi.dir/wifi.c.obj 
+ccache C:\EspressifnotVSC\tools\xtensa-esp32-elf\esp-2022r1-11.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -IC:/esp32_exercise/build/config -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/newlib/platform_include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/esp_additions/include/freertos -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/esp_additions/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/soc -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/soc/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/port/esp32/. -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/port/esp32/private_include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/heap/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc/esp32/. -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/hal/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/hal/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/hal/platform_port/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/include/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_common/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system/port/soc -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system/port/include/private -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/xtensa/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/xtensa/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/include/apps -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/include/apps/sntp -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/lwip/src/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/port/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/port/esp32/include/arch -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_event/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/nvs_flash/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_partition/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=C:/esp32_exercise=. -fmacro-prefix-map=C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0.4-dirty\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/wifi/CMakeFiles/__idf_wifi.dir/wifi.c.obj -MF esp-idf\wifi\CMakeFiles\__idf_wifi.dir\wifi.c.obj.d -o esp-idf/wifi/CMakeFiles/__idf_wifi.dir/wifi.c.obj -c C:/esp32_exercise/components/wifi/wifi.c
+C:/esp32_exercise/components/wifi/wifi.c: In function '_wifi_init_softap':
+C:/esp32_exercise/components/wifi/wifi.c:25:15: error: implicit declaration of function 'esp_netif_init'; did you mean 'esp_newlib_init'? [-Werror=implicit-function-declaration]
+   25 |         err = esp_netif_init();
+      |               ^~~~~~~~~~~~~~
+      |               esp_newlib_init
+C:/esp32_exercise/components/wifi/wifi.c:39:9: error: implicit declaration of function 'esp_netif_create_default_wifi_ap' [-Werror=implicit-function-declaration]
+   39 |         esp_netif_create_default_wifi_ap();
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:42:5: error: unknown type name 'wifi_init_config_t'
+   42 |     wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
+      |     ^~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:42:30: error: implicit declaration of function 'WIFI_INIT_CONFIG_DEFAULT' [-Werror=implicit-function-declaration]
+   42 |     wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:47:15: error: implicit declaration of function 'esp_wifi_init'; did you mean 'esp_newlib_init'? [-Werror=implicit-function-declaration]
+   47 |         err = esp_wifi_init(&cfg);
+      |               ^~~~~~~~~~~~~
+      |               esp_newlib_init
+C:/esp32_exercise/components/wifi/wifi.c:53:51: error: 'WIFI_EVENT' undeclared (first use in this function)
+   53 |         err = esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &_event_handler, NULL, NULL);
+      |                                                   ^~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:53:51: note: each undeclared identifier is reported only once for each function it appears in
+C:/esp32_exercise/components/wifi/wifi.c:56:5: error: unknown type name 'wifi_config_t'
+   56 |     wifi_config_t wifi_config = {
+      |     ^~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:57:9: error: field name not in record or union initializer
+   57 |         .ap = {
+      |         ^
+C:/esp32_exercise/components/wifi/wifi.c:57:9: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:57:9: warning: braces around scalar initializer
+C:/esp32_exercise/components/wifi/wifi.c:57:9: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:58:13: error: field name not in record or union initializer
+   58 |             .ssid = EXAMPLE_ESP_WIFI_SSID,
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:58:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:5:34: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+    5 | #define EXAMPLE_ESP_WIFI_SSID    ("ESP32_sipjo")
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:58:21: note: in expansion of macro 'EXAMPLE_ESP_WIFI_SSID'
+   58 |             .ssid = EXAMPLE_ESP_WIFI_SSID,
+      |                     ^~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:5:34: note: (near initialization for 'wifi_config')
+    5 | #define EXAMPLE_ESP_WIFI_SSID    ("ESP32_sipjo")
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:58:21: note: in expansion of macro 'EXAMPLE_ESP_WIFI_SSID'
+   58 |             .ssid = EXAMPLE_ESP_WIFI_SSID,
+      |                     ^~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:59:13: error: field name not in record or union initializer
+   59 |             .ssid_len = strlen(EXAMPLE_ESP_WIFI_SSID),
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:59:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:59:25: warning: excess elements in scalar initializer
+   59 |             .ssid_len = strlen(EXAMPLE_ESP_WIFI_SSID),
+      |                         ^~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:59:25: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:60:13: error: field name not in record or union initializer
+   60 |             .channel = EXAMPLE_ESP_WIFI_CHANNEL,
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:60:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:7:34: warning: excess elements in scalar initializer
+    7 | #define EXAMPLE_ESP_WIFI_CHANNEL (1U)
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:60:24: note: in expansion of macro 'EXAMPLE_ESP_WIFI_CHANNEL'
+   60 |             .channel = EXAMPLE_ESP_WIFI_CHANNEL,
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:7:34: note: (near initialization for 'wifi_config')
+    7 | #define EXAMPLE_ESP_WIFI_CHANNEL (1U)
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:60:24: note: in expansion of macro 'EXAMPLE_ESP_WIFI_CHANNEL'
+   60 |             .channel = EXAMPLE_ESP_WIFI_CHANNEL,
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:61:13: error: field name not in record or union initializer
+   61 |             .password = EXAMPLE_ESP_WIFI_PASS,
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:61:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:6:34: warning: excess elements in scalar initializer
+    6 | #define EXAMPLE_ESP_WIFI_PASS    ("123456")
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:61:25: note: in expansion of macro 'EXAMPLE_ESP_WIFI_PASS'
+   61 |             .password = EXAMPLE_ESP_WIFI_PASS,
+      |                         ^~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:6:34: note: (near initialization for 'wifi_config')
+    6 | #define EXAMPLE_ESP_WIFI_PASS    ("123456")
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:61:25: note: in expansion of macro 'EXAMPLE_ESP_WIFI_PASS'
+   61 |             .password = EXAMPLE_ESP_WIFI_PASS,
+      |                         ^~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:62:13: error: field name not in record or union initializer
+   62 |             .max_connection = EXAMPLE_MAX_STA_CONN,
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:62:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:8:34: warning: excess elements in scalar initializer
+    8 | #define EXAMPLE_MAX_STA_CONN     (4U)
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:62:31: note: in expansion of macro 'EXAMPLE_MAX_STA_CONN'
+   62 |             .max_connection = EXAMPLE_MAX_STA_CONN,
+      |                               ^~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:8:34: note: (near initialization for 'wifi_config')
+    8 | #define EXAMPLE_MAX_STA_CONN     (4U)
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:62:31: note: in expansion of macro 'EXAMPLE_MAX_STA_CONN'
+   62 |             .max_connection = EXAMPLE_MAX_STA_CONN,
+      |                               ^~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:63:13: error: field name not in record or union initializer
+   63 |             .authmode = WIFI_AUTH_WPA_WPA2_PSK,
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:63:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:63:25: error: 'WIFI_AUTH_WPA_WPA2_PSK' undeclared (first use in this function)
+   63 |             .authmode = WIFI_AUTH_WPA_WPA2_PSK,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:63:25: warning: excess elements in scalar initializer
+C:/esp32_exercise/components/wifi/wifi.c:63:25: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:69:20: error: request for member 'ap' in something not a structure or union
+   69 |         wifi_config.ap.authmode = WIFI_AUTH_OPEN;
+      |                    ^
+C:/esp32_exercise/components/wifi/wifi.c:69:35: error: 'WIFI_AUTH_OPEN' undeclared (first use in this function)
+   69 |         wifi_config.ap.authmode = WIFI_AUTH_OPEN;
+      |                                   ^~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:76:15: error: implicit declaration of function 'esp_wifi_set_mode' [-Werror=implicit-function-declaration]
+   76 |         err = esp_wifi_set_mode(WIFI_MODE_AP);
+      |               ^~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:76:33: error: 'WIFI_MODE_AP' undeclared (first use in this function)
+   76 |         err = esp_wifi_set_mode(WIFI_MODE_AP);
+      |                                 ^~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:83:15: error: implicit declaration of function 'esp_wifi_set_config' [-Werror=implicit-function-declaration]
+   83 |         err = esp_wifi_set_config(WIFI_IF_AP, &wifi_config);
+      |               ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:83:35: error: 'WIFI_IF_AP' undeclared (first use in this function)
+   83 |         err = esp_wifi_set_config(WIFI_IF_AP, &wifi_config);
+      |                                   ^~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:90:15: error: implicit declaration of function 'esp_wifi_start'; did you mean 'esp_restart'? [-Werror=implicit-function-declaration]
+   90 |         err = esp_wifi_start();
+      |               ^~~~~~~~~~~~~~
+      |               esp_restart
+C:/esp32_exercise/components/wifi/wifi.c: In function '_event_handler':
+C:/esp32_exercise/components/wifi/wifi.c:105:8: error: 'WIFI_EVENT_AP_STACONNECTED' undeclared (first use in this function)
+  105 |     if(WIFI_EVENT_AP_STACONNECTED == event_id)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:107:9: error: unknown type name 'wifi_event_ap_staconnected_t'
+  107 |         wifi_event_ap_staconnected_t *p_event = (wifi_event_ap_staconnected_t *)p_event_data;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:107:50: error: 'wifi_event_ap_staconnected_t' undeclared (first use in this function)
+  107 |         wifi_event_ap_staconnected_t *p_event = (wifi_event_ap_staconnected_t *)p_event_data;
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:107:80: error: expected expression before ')' token
+  107 |         wifi_event_ap_staconnected_t *p_event = (wifi_event_ap_staconnected_t *)p_event_data;
+      |                                                                                ^
+In file included from C:/esp32_exercise/components/wifi/wifi.h:7,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:21: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:29: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:37: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:45: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:53: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:61: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:108:88: error: request for member 'aid' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                                        ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:410:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  410 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:7,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:21: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:29: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:37: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:45: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:53: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:61: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:108:88: error: request for member 'aid' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                                        ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:411:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  411 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:7,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:21: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:29: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:37: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:45: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:53: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:61: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:108:88: error: request for member 'aid' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                                        ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:412:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  412 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:7,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:21: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:29: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:37: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:45: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:53: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:61: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:108:88: error: request for member 'aid' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                                        ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:413:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  413 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:7,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:21: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:29: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:37: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:45: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:53: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:73: error: request for member 'mac' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:61: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:108:88: error: request for member 'aid' in something not a structure or union
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                                        ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:414:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  414 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:108:9: note: in expansion of macro 'ESP_LOGI'
+  108 |         ESP_LOGI(TAG, "station " MACSTR " JOIN, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:110:13: error: 'WIFI_EVENT_AP_STADISCONNECTED' undeclared (first use in this function)
+  110 |     else if(WIFI_EVENT_AP_STADISCONNECTED == event_id)
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:112:9: error: unknown type name 'wifi_event_ap_stadisconnected_t'
+  112 |         wifi_event_ap_stadisconnected_t *p_event = (wifi_event_ap_stadisconnected_t *)p_event_data;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:112:53: error: 'wifi_event_ap_stadisconnected_t' undeclared (first use in this function)
+  112 |         wifi_event_ap_stadisconnected_t *p_event = (wifi_event_ap_stadisconnected_t *)p_event_data;
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:112:86: error: expected expression before ')' token
+  112 |         wifi_event_ap_stadisconnected_t *p_event = (wifi_event_ap_stadisconnected_t *)p_event_data;
+      |                                                                                      ^
+In file included from C:/esp32_exercise/components/wifi/wifi.h:7,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:21: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:29: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:37: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:45: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:53: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:61: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:113:89: error: request for member 'aid' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:410:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  410 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:7,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:21: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:29: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:37: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:45: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:53: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:61: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:113:89: error: request for member 'aid' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:411:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  411 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:7,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:21: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:29: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:37: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:45: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:53: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:61: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:113:89: error: request for member 'aid' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:412:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  412 |         else if (level==ESP_LOG_DEBUG )     { esp_log_write(ESP_LOG_DEBUG,      tag, LOG_FORMAT(D, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:7,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:21: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:29: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:37: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:45: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:53: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:61: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:113:89: error: request for member 'aid' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:413:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  413 |         else if (level==ESP_LOG_VERBOSE )   { esp_log_write(ESP_LOG_VERBOSE,    tag, LOG_FORMAT(V, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:7,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:21: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:29: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:37: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:45: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:53: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:74: error: request for member 'mac' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                          ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/esp_mac.h:13:61: note: in definition of macro 'MAC2STR'
+   13 | #define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+      |                                                             ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.c:2:
+C:/esp32_exercise/components/wifi/wifi.c:113:89: error: request for member 'aid' in something not a structure or union
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |                                                                                         ^~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:414:137: note: in definition of macro 'ESP_LOG_LEVEL'
+  414 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag, ##__VA_ARGS__); } \
+      |                                                                                                                                         ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include/esp_log.h:342:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  342 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format, ##__VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:113:9: note: in expansion of macro 'ESP_LOGI'
+  113 |         ESP_LOGI(TAG, "station " MACSTR " LEAVE, AID=%d", MAC2STR(p_event->mac), p_event->aid);
+      |         ^~~~~~~~
+At top level:
+C:/esp32_exercise/components/wifi/wifi.c:17:18: warning: '_wifi_init_softap' defined but not used [-Wunused-function]
+   17 | static esp_err_t _wifi_init_softap(void)
+      |                  ^~~~~~~~~~~~~~~~~
+cc1.exe: some warnings being treated as errors
+ninja: build stopped: subcommand failed.

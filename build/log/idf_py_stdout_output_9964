@@ -1,0 +1,1020 @@
+[1/12] Building C object esp-idf/wifi/CMakeFiles/__idf_wifi.dir/wifi.c.obj
+FAILED: esp-idf/wifi/CMakeFiles/__idf_wifi.dir/wifi.c.obj 
+ccache C:\EspressifnotVSC\tools\xtensa-esp32-elf\esp-2022r1-11.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -IC:/esp32_exercise/build/config -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/newlib/platform_include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/esp_additions/include/freertos -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/esp_additions/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/soc -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/soc/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/port/esp32/. -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/port/esp32/private_include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/heap/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc/esp32/. -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/hal/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/hal/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/hal/platform_port/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/include/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_common/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system/port/soc -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system/port/include/private -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/xtensa/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/xtensa/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/include/apps -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/include/apps/sntp -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/lwip/src/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/port/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/port/esp32/include/arch -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=C:/esp32_exercise=. -fmacro-prefix-map=C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0.4-dirty\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/wifi/CMakeFiles/__idf_wifi.dir/wifi.c.obj -MF esp-idf\wifi\CMakeFiles\__idf_wifi.dir\wifi.c.obj.d -o esp-idf/wifi/CMakeFiles/__idf_wifi.dir/wifi.c.obj -c C:/esp32_exercise/components/wifi/wifi.c
+C:/esp32_exercise/components/wifi/wifi.c:9:8: error: unknown type name 'esp_err_t'
+    9 | static esp_err_t _wifi_init_softap(void);
+      |        ^~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:16:8: error: unknown type name 'esp_err_t'
+   16 | static esp_err_t _wifi_init_softap(void)
+      |        ^~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c: In function '_wifi_init_softap':
+C:/esp32_exercise/components/wifi/wifi.c:18:5: error: unknown type name 'esp_err_t'
+   18 |     esp_err_t err = ESP_OK;
+      |     ^~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:18:21: error: 'ESP_OK' undeclared (first use in this function)
+   18 |     esp_err_t err = ESP_OK;
+      |                     ^~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:18:21: note: each undeclared identifier is reported only once for each function it appears in
+C:/esp32_exercise/components/wifi/wifi.c:23:9: error: implicit declaration of function 'ESP_LOGI' [-Werror=implicit-function-declaration]
+   23 |         ESP_LOGI(TAG, " Initialize TCP/IP");
+      |         ^~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:24:15: error: implicit declaration of function 'esp_netif_init' [-Werror=implicit-function-declaration]
+   24 |         err = esp_netif_init();
+      |               ^~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:31:15: error: implicit declaration of function 'esp_event_loop_create_default' [-Werror=implicit-function-declaration]
+   31 |         err = esp_event_loop_create_default();
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:38:9: error: implicit declaration of function 'esp_netif_create_default_wifi_ap' [-Werror=implicit-function-declaration]
+   38 |         esp_netif_create_default_wifi_ap();
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:41:5: error: unknown type name 'wifi_init_config_t'
+   41 |     wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
+      |     ^~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:41:30: error: implicit declaration of function 'WIFI_INIT_CONFIG_DEFAULT' [-Werror=implicit-function-declaration]
+   41 |     wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:46:15: error: implicit declaration of function 'esp_wifi_init' [-Werror=implicit-function-declaration]
+   46 |         err = esp_wifi_init(&cfg);
+      |               ^~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:52:15: error: implicit declaration of function 'esp_event_handler_instance_register' [-Werror=implicit-function-declaration]
+   52 |         err = esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &_event_handler, NULL, NULL);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:52:51: error: 'WIFI_EVENT' undeclared (first use in this function)
+   52 |         err = esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &_event_handler, NULL, NULL);
+      |                                                   ^~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:52:63: error: 'ESP_EVENT_ANY_ID' undeclared (first use in this function)
+   52 |         err = esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &_event_handler, NULL, NULL);
+      |                                                               ^~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:52:82: error: '_event_handler' undeclared (first use in this function)
+   52 |         err = esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &_event_handler, NULL, NULL);
+      |                                                                                  ^~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:52:98: error: 'NULL' undeclared (first use in this function)
+   52 |         err = esp_event_handler_instance_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &_event_handler, NULL, NULL);
+      |                                                                                                  ^~~~
+C:/esp32_exercise/components/wifi/wifi.c:1:1: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+  +++ |+#include <stddef.h>
+    1 | //--------------------------------- INCLUDES ----------------------------------
+C:/esp32_exercise/components/wifi/wifi.c:55:5: error: unknown type name 'wifi_config_t'
+   55 |     wifi_config_t wifi_config = {
+      |     ^~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:56:9: error: field name not in record or union initializer
+   56 |         .ap = {
+      |         ^
+C:/esp32_exercise/components/wifi/wifi.c:56:9: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:56:9: warning: braces around scalar initializer
+C:/esp32_exercise/components/wifi/wifi.c:56:9: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:57:13: error: field name not in record or union initializer
+   57 |             .ssid = EXAMPLE_ESP_WIFI_SSID,
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:57:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:4:34: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+    4 | #define EXAMPLE_ESP_WIFI_SSID    ("ESP32_sipjo")
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:57:21: note: in expansion of macro 'EXAMPLE_ESP_WIFI_SSID'
+   57 |             .ssid = EXAMPLE_ESP_WIFI_SSID,
+      |                     ^~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:4:34: note: (near initialization for 'wifi_config')
+    4 | #define EXAMPLE_ESP_WIFI_SSID    ("ESP32_sipjo")
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:57:21: note: in expansion of macro 'EXAMPLE_ESP_WIFI_SSID'
+   57 |             .ssid = EXAMPLE_ESP_WIFI_SSID,
+      |                     ^~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:58:13: error: field name not in record or union initializer
+   58 |             .ssid_len = strlen(EXAMPLE_ESP_WIFI_SSID),
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:58:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:58:25: error: implicit declaration of function 'strlen' [-Werror=implicit-function-declaration]
+   58 |             .ssid_len = strlen(EXAMPLE_ESP_WIFI_SSID),
+      |                         ^~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:1:1: note: include '<string.h>' or provide a declaration of 'strlen'
+  +++ |+#include <string.h>
+    1 | //--------------------------------- INCLUDES ----------------------------------
+C:/esp32_exercise/components/wifi/wifi.c:58:25: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+   58 |             .ssid_len = strlen(EXAMPLE_ESP_WIFI_SSID),
+      |                         ^~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:58:25: note: include '<string.h>' or provide a declaration of 'strlen'
+C:/esp32_exercise/components/wifi/wifi.c:58:25: warning: excess elements in scalar initializer
+C:/esp32_exercise/components/wifi/wifi.c:58:25: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:59:13: error: field name not in record or union initializer
+   59 |             .channel = EXAMPLE_ESP_WIFI_CHANNEL,
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:59:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:6:34: warning: excess elements in scalar initializer
+    6 | #define EXAMPLE_ESP_WIFI_CHANNEL (1U)
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:59:24: note: in expansion of macro 'EXAMPLE_ESP_WIFI_CHANNEL'
+   59 |             .channel = EXAMPLE_ESP_WIFI_CHANNEL,
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:6:34: note: (near initialization for 'wifi_config')
+    6 | #define EXAMPLE_ESP_WIFI_CHANNEL (1U)
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:59:24: note: in expansion of macro 'EXAMPLE_ESP_WIFI_CHANNEL'
+   59 |             .channel = EXAMPLE_ESP_WIFI_CHANNEL,
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:60:13: error: field name not in record or union initializer
+   60 |             .password = EXAMPLE_ESP_WIFI_PASS,
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:60:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:5:34: warning: excess elements in scalar initializer
+    5 | #define EXAMPLE_ESP_WIFI_PASS    ("123456")
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:60:25: note: in expansion of macro 'EXAMPLE_ESP_WIFI_PASS'
+   60 |             .password = EXAMPLE_ESP_WIFI_PASS,
+      |                         ^~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:5:34: note: (near initialization for 'wifi_config')
+    5 | #define EXAMPLE_ESP_WIFI_PASS    ("123456")
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:60:25: note: in expansion of macro 'EXAMPLE_ESP_WIFI_PASS'
+   60 |             .password = EXAMPLE_ESP_WIFI_PASS,
+      |                         ^~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:61:13: error: field name not in record or union initializer
+   61 |             .max_connection = EXAMPLE_MAX_STA_CONN,
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:61:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:7:34: warning: excess elements in scalar initializer
+    7 | #define EXAMPLE_MAX_STA_CONN     (4U)
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:61:31: note: in expansion of macro 'EXAMPLE_MAX_STA_CONN'
+   61 |             .max_connection = EXAMPLE_MAX_STA_CONN,
+      |                               ^~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:7:34: note: (near initialization for 'wifi_config')
+    7 | #define EXAMPLE_MAX_STA_CONN     (4U)
+      |                                  ^
+C:/esp32_exercise/components/wifi/wifi.c:61:31: note: in expansion of macro 'EXAMPLE_MAX_STA_CONN'
+   61 |             .max_connection = EXAMPLE_MAX_STA_CONN,
+      |                               ^~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:62:13: error: field name not in record or union initializer
+   62 |             .authmode = WIFI_AUTH_WPA_WPA2_PSK,
+      |             ^
+C:/esp32_exercise/components/wifi/wifi.c:62:13: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:62:25: error: 'WIFI_AUTH_WPA_WPA2_PSK' undeclared (first use in this function)
+   62 |             .authmode = WIFI_AUTH_WPA_WPA2_PSK,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:62:25: warning: excess elements in scalar initializer
+C:/esp32_exercise/components/wifi/wifi.c:62:25: note: (near initialization for 'wifi_config')
+C:/esp32_exercise/components/wifi/wifi.c:68:20: error: request for member 'ap' in something not a structure or union
+   68 |         wifi_config.ap.authmode = WIFI_AUTH_OPEN;
+      |                    ^
+C:/esp32_exercise/components/wifi/wifi.c:68:35: error: 'WIFI_AUTH_OPEN' undeclared (first use in this function)
+   68 |         wifi_config.ap.authmode = WIFI_AUTH_OPEN;
+      |                                   ^~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:75:15: error: implicit declaration of function 'esp_wifi_set_mode' [-Werror=implicit-function-declaration]
+   75 |         err = esp_wifi_set_mode(WIFI_MODE_AP);
+      |               ^~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:75:33: error: 'WIFI_MODE_AP' undeclared (first use in this function)
+   75 |         err = esp_wifi_set_mode(WIFI_MODE_AP);
+      |                                 ^~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:82:15: error: implicit declaration of function 'esp_wifi_set_config' [-Werror=implicit-function-declaration]
+   82 |         err = esp_wifi_set_config(WIFI_IF_AP, &wifi_config);
+      |               ^~~~~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:82:35: error: 'WIFI_IF_AP' undeclared (first use in this function)
+   82 |         err = esp_wifi_set_config(WIFI_IF_AP, &wifi_config);
+      |                                   ^~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:89:15: error: implicit declaration of function 'esp_wifi_start' [-Werror=implicit-function-declaration]
+   89 |         err = esp_wifi_start();
+      |               ^~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c: At top level:
+C:/esp32_exercise/components/wifi/wifi.c:102:41: error: unknown type name 'esp_event_base_t'
+  102 | static void _event_handler(void *p_arg, esp_event_base_t event_base, int32_t event_id, void *p_event_data)
+      |                                         ^~~~~~~~~~~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:102:70: error: unknown type name 'int32_t'
+  102 | static void _event_handler(void *p_arg, esp_event_base_t event_base, int32_t event_id, void *p_event_data)
+      |                                                                      ^~~~~~~
+C:/esp32_exercise/components/wifi/wifi.c:1:1: note: 'int32_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+  +++ |+#include <stdint.h>
+    1 | //--------------------------------- INCLUDES ----------------------------------
+C:/esp32_exercise/components/wifi/wifi.c:16:18: warning: '_wifi_init_softap' defined but not used [-Wunused-function]
+   16 | static esp_err_t _wifi_init_softap(void)
+      |                  ^~~~~~~~~~~~~~~~~
+cc1.exe: some warnings being treated as errors
+[2/12] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\esp32_exercise\build\bootloader\esp-idf\esptool_py && C:\EspressifnotVSC\python_env\idf5.0_py3.11_env\Scripts\python.exe C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/esp32_exercise/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6760 bytes. 0x8a0 bytes (8%) free.
+[3/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj 
+ccache C:\EspressifnotVSC\tools\xtensa-esp32-elf\esp-2022r1-11.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DUNITY_INCLUDE_CONFIG_H -IC:/esp32_exercise/build/config -IC:/esp32_exercise/main -IC:/esp32_exercise/components/led -IC:/esp32_exercise/components/wifi -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/newlib/platform_include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/esp_additions/include/freertos -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/freertos/esp_additions/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/soc -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/include/soc/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/port/esp32/. -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hw_support/port/esp32/private_include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/heap/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/log/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc/esp32/. -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/soc/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/hal/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/hal/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/hal/platform_port/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/include/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_rom/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_common/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system/port/soc -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_system/port/include/private -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/xtensa/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/xtensa/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/include/apps -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/include/apps/sntp -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/lwip/src/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/port/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/lwip/port/esp32/include/arch -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_ringbuf/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/efuse/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/efuse/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/driver/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/driver/deprecated -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/driver/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_pm/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/mbedtls/port/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/mbedtls/mbedtls/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/mbedtls/mbedtls/library -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/mbedtls/esp_crt_bundle/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_app_format/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/bootloader_support/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/bootloader_support/bootloader_flash/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_partition/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/app_update/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/spi_flash/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/pthread/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_timer/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/app_trace/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_event/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/nvs_flash/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_phy/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_phy/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/vfs/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_netif/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/wpa_supplicant/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/wpa_supplicant/port/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/wpa_supplicant/esp_supplicant/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/unity/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/unity/unity/src -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/cmock/CMock/src -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/console -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/http_parser -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp-tls -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp-tls/esp-tls-crypto -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_adc/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_adc/interface -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_adc/esp32/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_adc/deprecated/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_eth/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_gdbstub/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_gdbstub/xtensa -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_gdbstub/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_hid/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/tcp_transport/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_http_client/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_http_server/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_https_ota/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_lcd/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_lcd/interface -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/protobuf-c/protobuf-c -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/protocomm/include/common -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/protocomm/include/security -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/protocomm/include/transports -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_local_ctrl/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_psram/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/espcoredump/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/espcoredump/include/port/xtensa -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/wear_levelling/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/sdmmc/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/fatfs/diskio -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/fatfs/vfs -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/fatfs/src -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/idf_test/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/idf_test/include/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/ieee802154/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/json/cJSON -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/mqtt/esp-mqtt/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/perfmon/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/spiffs/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/ulp/ulp_common/include -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/ulp/ulp_common/include/esp32 -IC:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/wifi_provisioning/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=C:/esp32_exercise=. -fmacro-prefix-map=C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0.4-dirty\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\app_main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj -c C:/esp32_exercise/main/app_main.c
+In file included from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/main/app_main.c:14:
+C:/esp32_exercise/components/wifi/wifi.h:1:20: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+    1 | #include <string.h>
+      |                    ^
+C:/esp32_exercise/components/wifi/wifi.h:2:18: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+    2 | #include "wifi.h"
+      |                  ^
+C:/esp32_exercise/components/wifi/wifi.h:3:23: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+    3 | #include "esp_event.h"
+      |                       ^
+C:/esp32_exercise/components/wifi/wifi.h:4:21: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+    4 | #include "esp_log.h"
+      |                     ^
+C:/esp32_exercise/components/wifi/wifi.h:5:22: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+    5 | #include "esp_wifi.h"
+      |                      ^
+C:/esp32_exercise/components/wifi/wifi.h:6:31: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+    6 | #include "freertos/FreeRTOS.h"
+      |                               ^
+C:/esp32_exercise/components/wifi/wifi.h:7:27: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+    7 | #include "freertos/task.h"
+      |                           ^
+C:/esp32_exercise/components/wifi/wifi.h:9:22: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+    9 | #include "lwip/err.h"
+      |                      ^
+C:/esp32_exercise/components/wifi/wifi.h:10:22: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+   10 | #include "lwip/sys.h"
+      |                      ^
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/main/app_main.c:14:
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:52:20: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+   52 | #include <stdint.h>
+      |                    ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:53:21: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+   53 | #include <stdbool.h>
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:54:21: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+   54 | #include "esp_err.h"
+      |                     ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:55:28: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+   55 | #include "esp_wifi_types.h"
+      |                            ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:56:23: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+   56 | #include "esp_event.h"
+      |                       ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:57:42: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+   57 | #include "esp_private/esp_wifi_private.h"
+      |                                          ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:58:30: error: #include nested depth 200 exceeds maximum of 200 (use -fmax-include-depth=DEPTH to increase the maximum)
+   58 | #include "esp_wifi_default.h"
+      |                              ^
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:90:5: error: unknown type name 'wifi_osi_funcs_t'
+   90 |     wifi_osi_funcs_t*      osi_funcs;              /**< WiFi OS functions */
+      |     ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:91:5: error: unknown type name 'wpa_crypto_funcs_t'
+   91 |     wpa_crypto_funcs_t     wpa_crypto_funcs;       /**< WiFi station crypto functions when connect */
+      |     ^~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:168:14: error: unknown type name 'wpa_crypto_funcs_t'
+  168 | extern const wpa_crypto_funcs_t g_wifi_default_wpa_crypto_funcs;
+      |              ^~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:280:29: error: unknown type name 'wifi_mode_t'
+  280 | esp_err_t esp_wifi_set_mode(wifi_mode_t mode);
+      |                             ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:292:29: error: unknown type name 'wifi_mode_t'
+  292 | esp_err_t esp_wifi_get_mode(wifi_mode_t *mode);
+      |                             ^~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:414:37: error: unknown type name 'wifi_scan_config_t'
+  414 | esp_err_t esp_wifi_scan_start(const wifi_scan_config_t *config, bool block);
+      |                                     ^~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:455:58: error: unknown type name 'wifi_ap_record_t'
+  455 | esp_err_t esp_wifi_scan_get_ap_records(uint16_t *number, wifi_ap_record_t *ap_records);
+      |                                                          ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:488:36: error: unknown type name 'wifi_ap_record_t'
+  488 | esp_err_t esp_wifi_sta_get_ap_info(wifi_ap_record_t *ap_info);
+      |                                    ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:499:27: error: unknown type name 'wifi_ps_type_t'
+  499 | esp_err_t esp_wifi_set_ps(wifi_ps_type_t type);
+      |                           ^~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:510:27: error: unknown type name 'wifi_ps_type_t'
+  510 | esp_err_t esp_wifi_get_ps(wifi_ps_type_t *type);
+      |                           ^~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:527:33: error: unknown type name 'wifi_interface_t'
+  527 | esp_err_t esp_wifi_set_protocol(wifi_interface_t ifx, uint8_t protocol_bitmap);
+      |                                 ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:542:33: error: unknown type name 'wifi_interface_t'
+  542 | esp_err_t esp_wifi_get_protocol(wifi_interface_t ifx, uint8_t *protocol_bitmap);
+      |                                 ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:560:34: error: unknown type name 'wifi_interface_t'
+  560 | esp_err_t esp_wifi_set_bandwidth(wifi_interface_t ifx, wifi_bandwidth_t bw);
+      |                                  ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:560:56: error: unknown type name 'wifi_bandwidth_t'
+  560 | esp_err_t esp_wifi_set_bandwidth(wifi_interface_t ifx, wifi_bandwidth_t bw);
+      |                                                        ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:576:34: error: unknown type name 'wifi_interface_t'
+  576 | esp_err_t esp_wifi_get_bandwidth(wifi_interface_t ifx, wifi_bandwidth_t *bw);
+      |                                  ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:576:56: error: unknown type name 'wifi_bandwidth_t'
+  576 | esp_err_t esp_wifi_get_bandwidth(wifi_interface_t ifx, wifi_bandwidth_t *bw);
+      |                                                        ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:598:49: error: unknown type name 'wifi_second_chan_t'
+  598 | esp_err_t esp_wifi_set_channel(uint8_t primary, wifi_second_chan_t second);
+      |                                                 ^~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:613:50: error: unknown type name 'wifi_second_chan_t'
+  613 | esp_err_t esp_wifi_get_channel(uint8_t *primary, wifi_second_chan_t *second);
+      |                                                  ^~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:643:38: error: unknown type name 'wifi_country_t'
+  643 | esp_err_t esp_wifi_set_country(const wifi_country_t *country);
+      |                                      ^~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:655:32: error: unknown type name 'wifi_country_t'
+  655 | esp_err_t esp_wifi_get_country(wifi_country_t *country);
+      |                                ^~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:678:28: error: unknown type name 'wifi_interface_t'
+  678 | esp_err_t esp_wifi_set_mac(wifi_interface_t ifx, const uint8_t mac[6]);
+      |                            ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:692:28: error: unknown type name 'wifi_interface_t'
+  692 | esp_err_t esp_wifi_get_mac(wifi_interface_t ifx, uint8_t mac[6]);
+      |                            ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:702:51: error: unknown type name 'wifi_promiscuous_pkt_type_t'
+  702 | typedef void (* wifi_promiscuous_cb_t)(void *buf, wifi_promiscuous_pkt_type_t type);
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:715:42: error: unknown type name 'wifi_promiscuous_cb_t'
+  715 | esp_err_t esp_wifi_set_promiscuous_rx_cb(wifi_promiscuous_cb_t cb);
+      |                                          ^~~~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:751:49: error: unknown type name 'wifi_promiscuous_filter_t'
+  751 | esp_err_t esp_wifi_set_promiscuous_filter(const wifi_promiscuous_filter_t *filter);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:763:43: error: unknown type name 'wifi_promiscuous_filter_t'
+  763 | esp_err_t esp_wifi_get_promiscuous_filter(wifi_promiscuous_filter_t *filter);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:776:54: error: unknown type name 'wifi_promiscuous_filter_t'
+  776 | esp_err_t esp_wifi_set_promiscuous_ctrl_filter(const wifi_promiscuous_filter_t *filter);
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:788:48: error: unknown type name 'wifi_promiscuous_filter_t'
+  788 | esp_err_t esp_wifi_get_promiscuous_ctrl_filter(wifi_promiscuous_filter_t *filter);
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:812:31: error: unknown type name 'wifi_interface_t'
+  812 | esp_err_t esp_wifi_set_config(wifi_interface_t interface, wifi_config_t *conf);
+      |                               ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:812:59: error: unknown type name 'wifi_config_t'; did you mean 'wifi_init_config_t'?
+  812 | esp_err_t esp_wifi_set_config(wifi_interface_t interface, wifi_config_t *conf);
+      |                                                           ^~~~~~~~~~~~~
+      |                                                           wifi_init_config_t
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:826:31: error: unknown type name 'wifi_interface_t'
+  826 | esp_err_t esp_wifi_get_config(wifi_interface_t interface, wifi_config_t *conf);
+      |                               ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:826:59: error: unknown type name 'wifi_config_t'; did you mean 'wifi_init_config_t'?
+  826 | esp_err_t esp_wifi_get_config(wifi_interface_t interface, wifi_config_t *conf);
+      |                                                           ^~~~~~~~~~~~~
+      |                                                           wifi_init_config_t
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:845:36: error: unknown type name 'wifi_sta_list_t'
+  845 | esp_err_t esp_wifi_ap_get_sta_list(wifi_sta_list_t *sta);
+      |                                    ^~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:875:32: error: unknown type name 'wifi_storage_t'
+  875 | esp_err_t esp_wifi_set_storage(wifi_storage_t storage);
+      |                                ^~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:885:48: error: unknown type name 'wifi_vendor_ie_type_t'
+  885 | typedef void (*esp_vendor_ie_cb_t) (void *ctx, wifi_vendor_ie_type_t type, const uint8_t sa[6], const vendor_ie_data_t *vnd_ie, int rssi);
+      |                                                ^~~~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:885:103: error: unknown type name 'vendor_ie_data_t'
+  885 | typedef void (*esp_vendor_ie_cb_t) (void *ctx, wifi_vendor_ie_type_t type, const uint8_t sa[6], const vendor_ie_data_t *vnd_ie, int rssi);
+      |                                                                                                       ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:903:47: error: unknown type name 'wifi_vendor_ie_type_t'
+  903 | esp_err_t esp_wifi_set_vendor_ie(bool enable, wifi_vendor_ie_type_t type, wifi_vendor_ie_id_t idx, const void *vnd_ie);
+      |                                               ^~~~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:903:75: error: unknown type name 'wifi_vendor_ie_id_t'
+  903 | esp_err_t esp_wifi_set_vendor_ie(bool enable, wifi_vendor_ie_type_t type, wifi_vendor_ie_id_t idx, const void *vnd_ie);
+      |                                                                           ^~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:915:37: error: unknown type name 'esp_vendor_ie_cb_t'
+  915 | esp_err_t esp_wifi_set_vendor_ie_cb(esp_vendor_ie_cb_t cb, void *ctx);
+      |                                     ^~~~~~~~~~~~~~~~~~
+In file included from C:/esp32_exercise/components/wifi/wifi.h:5,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/components/wifi/wifi.h:2,
+                 from C:/esp32_exercise/main/app_main.c:14:
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1004:29: error: unknown type name 'wifi_interface_t'
+ 1004 | esp_err_t esp_wifi_80211_tx(wifi_interface_t ifx, const void *buffer, int len, bool en_sys_seq);
+      |                             ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1015:43: error: unknown type name 'wifi_csi_info_t'
+ 1015 | typedef void (* wifi_csi_cb_t)(void *ctx, wifi_csi_info_t *data);
+      |                                           ^~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1031:34: error: unknown type name 'wifi_csi_cb_t'
+ 1031 | esp_err_t esp_wifi_set_csi_rx_cb(wifi_csi_cb_t cb, void *ctx);
+      |                                  ^~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1044:41: error: unknown type name 'wifi_csi_config_t'
+ 1044 | esp_err_t esp_wifi_set_csi_config(const wifi_csi_config_t *config);
+      |                                         ^~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1069:39: error: unknown type name 'wifi_ant_gpio_config_t'
+ 1069 | esp_err_t esp_wifi_set_ant_gpio(const wifi_ant_gpio_config_t *config);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1081:33: error: unknown type name 'wifi_ant_gpio_config_t'; did you mean 'wifi_init_config_t'?
+ 1081 | esp_err_t esp_wifi_get_ant_gpio(wifi_ant_gpio_config_t *config);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+      |                                 wifi_init_config_t
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1094:34: error: unknown type name 'wifi_ant_config_t'
+ 1094 | esp_err_t esp_wifi_set_ant(const wifi_ant_config_t *config);
+      |                                  ^~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1106:28: error: unknown type name 'wifi_ant_config_t'; did you mean 'wifi_init_config_t'?
+ 1106 | esp_err_t esp_wifi_get_ant(wifi_ant_config_t *config);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            wifi_init_config_t
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1119:31: error: unknown type name 'wifi_interface_t'
+ 1119 | int64_t esp_wifi_get_tsf_time(wifi_interface_t interface);
+      |                               ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1139:38: error: unknown type name 'wifi_interface_t'
+ 1139 | esp_err_t esp_wifi_set_inactive_time(wifi_interface_t ifx, uint16_t sec);
+      |                                      ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1153:38: error: unknown type name 'wifi_interface_t'
+ 1153 | esp_err_t esp_wifi_get_inactive_time(wifi_interface_t ifx, uint16_t *sec);
+      |                                      ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1194:41: error: unknown type name 'wifi_ftm_initiator_cfg_t'
+ 1194 | esp_err_t esp_wifi_ftm_initiate_session(wifi_ftm_initiator_cfg_t *cfg);
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1234:36: error: unknown type name 'wifi_interface_t'
+ 1234 | esp_err_t esp_wifi_config_11b_rate(wifi_interface_t ifx, bool disable);
+      |                                    ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1309:41: error: unknown type name 'wifi_interface_t'
+ 1309 | esp_err_t esp_wifi_config_80211_tx_rate(wifi_interface_t ifx, wifi_phy_rate_t rate);
+      |                                         ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1309:63: error: unknown type name 'wifi_phy_rate_t'
+ 1309 | esp_err_t esp_wifi_config_80211_tx_rate(wifi_interface_t ifx, wifi_phy_rate_t rate);
+      |                                                               ^~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1322:39: error: unknown type name 'wifi_interface_t'
+ 1322 | esp_err_t esp_wifi_disable_pmf_config(wifi_interface_t ifx);
+      |                                       ^~~~~~~~~~~~~~~~
+C:/EspressifnotVSC/frameworks/esp-idf-v5.0.4/components/esp_wifi/include/esp_wifi.h:1346:47: error: unknown type name 'wifi_phy_mode_t'
+ 1346 | esp_err_t esp_wifi_sta_get_negotiated_phymode(wifi_phy_mode_t *phymode);
+      |                                               ^~~~~~~~~~~~~~~
+In file included from C:/esp32_exercise/main/app_main.c:14:
+C:/esp32_exercise/components/wifi/wifi.h:12:18: warning: '_wifi_init_softap' used but never defined
+   12 | static esp_err_t _wifi_init_softap(void);
+      |                  ^~~~~~~~~~~~~~~~~
+C:/esp32_exercise/main/app_main.c:16:13: warning: '_event_handler' declared 'static' but never defined [-Wunused-function]
+   16 | static void _event_handler(void *p_arg, esp_event_base_t event_base, int32_t event_id, void *p_event_data);
+      |             ^~~~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
