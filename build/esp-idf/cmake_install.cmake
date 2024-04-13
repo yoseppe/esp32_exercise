@@ -392,8 +392,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/esp32_exercise/build/esp-idf/main/cmake_install.cmake")
 endif()
 
+<<<<<<< HEAD
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/esp32_exercise/build/esp-idf/wifi/cmake_install.cmake")
 endif()
 
+=======
+>>>>>>> 370fcb4d90f9be2ecf2e43e705b5701d0b9562f7

@@ -106,6 +106,7 @@
 8318	8497	0	C:/esp32_exercise/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	7d147b05d03e4a4
 7	72	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	7d147b05d03e4a4
 7	72	0	C:/esp32_exercise/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	7d147b05d03e4a4
+<<<<<<< HEAD
 6	69	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	7d147b05d03e4a4
 6	69	0	C:/esp32_exercise/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	7d147b05d03e4a4
 7	74	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	7d147b05d03e4a4
@@ -198,3 +199,5 @@
 7	72	0	C:/esp32_exercise/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	7d147b05d03e4a4
 7	71	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	7d147b05d03e4a4
 7	71	0	C:/esp32_exercise/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	7d147b05d03e4a4
+=======
+>>>>>>> 370fcb4d90f9be2ecf2e43e705b5701d0b9562f7

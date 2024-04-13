@@ -9,7 +9,11 @@ C:/esp32_exercise/build/CMakeFiles/monitor.dir
 C:/esp32_exercise/build/CMakeFiles/flash.dir
 C:/esp32_exercise/build/CMakeFiles/encrypted-flash.dir
 C:/esp32_exercise/build/CMakeFiles/_project_elf_src.dir
+<<<<<<< HEAD
 C:/esp32_exercise/build/CMakeFiles/esp32_exercise.elf.dir
+=======
+C:/esp32_exercise/build/CMakeFiles/1_first_code.elf.dir
+>>>>>>> 370fcb4d90f9be2ecf2e43e705b5701d0b9562f7
 C:/esp32_exercise/build/CMakeFiles/size.dir
 C:/esp32_exercise/build/CMakeFiles/size-files.dir
 C:/esp32_exercise/build/CMakeFiles/size-components.dir
@@ -594,6 +598,7 @@ C:/esp32_exercise/build/esp-idf/main/CMakeFiles/list_install_components.dir
 C:/esp32_exercise/build/esp-idf/main/CMakeFiles/install.dir
 C:/esp32_exercise/build/esp-idf/main/CMakeFiles/install/local.dir
 C:/esp32_exercise/build/esp-idf/main/CMakeFiles/install/strip.dir
+<<<<<<< HEAD
 C:/esp32_exercise/build/esp-idf/wifi/CMakeFiles/__idf_wifi.dir
 C:/esp32_exercise/build/esp-idf/wifi/CMakeFiles/edit_cache.dir
 C:/esp32_exercise/build/esp-idf/wifi/CMakeFiles/rebuild_cache.dir
@@ -601,3 +606,5 @@ C:/esp32_exercise/build/esp-idf/wifi/CMakeFiles/list_install_components.dir
 C:/esp32_exercise/build/esp-idf/wifi/CMakeFiles/install.dir
 C:/esp32_exercise/build/esp-idf/wifi/CMakeFiles/install/local.dir
 C:/esp32_exercise/build/esp-idf/wifi/CMakeFiles/install/strip.dir
+=======
+>>>>>>> 370fcb4d90f9be2ecf2e43e705b5701d0b9562f7

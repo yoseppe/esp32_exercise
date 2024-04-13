@@ -59,4 +59,7 @@ C:/esp32_exercise/build/esp-idf/spiffs/libspiffs.a
 C:/esp32_exercise/build/esp-idf/ulp/libulp.a
 C:/esp32_exercise/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 C:/esp32_exercise/build/esp-idf/main/libmain.a
+<<<<<<< HEAD
 C:/esp32_exercise/build/esp-idf/wifi/libwifi.a
+=======
+>>>>>>> 370fcb4d90f9be2ecf2e43e705b5701d0b9562f7

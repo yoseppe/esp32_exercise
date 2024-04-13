@@ -9,11 +9,19 @@
     },
     "flash_files" : {
         "0x1000" : "bootloader/bootloader.bin",
+<<<<<<< HEAD
         "0x10000" : "esp32_exercise.bin",
         "0x8000" : "partition_table/partition-table.bin"
     },
     "bootloader" : { "offset" : "0x1000", "file" : "bootloader/bootloader.bin", "encrypted" : "false" },
     "app" : { "offset" : "0x10000", "file" : "esp32_exercise.bin", "encrypted" : "false" },
+=======
+        "0x10000" : "1_first_code.bin",
+        "0x8000" : "partition_table/partition-table.bin"
+    },
+    "bootloader" : { "offset" : "0x1000", "file" : "bootloader/bootloader.bin", "encrypted" : "false" },
+    "app" : { "offset" : "0x10000", "file" : "1_first_code.bin", "encrypted" : "false" },
+>>>>>>> 370fcb4d90f9be2ecf2e43e705b5701d0b9562f7
     "partition-table" : { "offset" : "0x8000", "file" : "partition_table/partition-table.bin", "encrypted" : "false" },
     "extra_esptool_args" : {
         "after"  : "hard_reset",
